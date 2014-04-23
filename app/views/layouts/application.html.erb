@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="http://getbootstrap.com/dist/js/bootstrap.js"></script><!DOCTYPE html>
+
+<html>
+<head>
+  <title>NU Connection</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<center><h1>Welcome to<br>NU Connection<br><br>
+  
+   <style>
+h1 { color: purple;
+}
+</style>
+  
+<%= yield %>
+
+</body>
+</html>
